@@ -77,3 +77,43 @@ contract HeeloWorld {}
 
        1. enum: Used to define a list of options
        2. function: Can store function references.
+
+
+
+
+
+### Visibility specifiers
+
+#### public
+
+Accessible from:
+
+* Inside the contract
+* Other contracts
+* External transactions
+
+
+
+#### private
+
+Accessible from:
+
+* Only within the same contract
+
+
+
+#### internal
+
+Accessible from
+
+* The same contract
+* Derived (child) contracts
+
+
+
+#### external
+
+Accessible from
+
+* Only externally (cannot be called from within the same contract)
+* Not accessible internally
